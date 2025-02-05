@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.artist-card,
+.track-card {
+  background: #1db954;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.artist-image,
+.track-image {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.artist-name,
+.track-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.track-artist {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.rank {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #191414;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+button {
+  background: #1db954;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1ed760;
+}
